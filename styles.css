@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* #home {
+  display: flex;
+  width: 100%;
+  margin: 1rem 0rem;
+   border-bottom: 3px solid white; 
+}  */
+
+#home {
+  background-color: rgb(123, 126, 138);
+  height: 500px;
+}
+
+#logo {
+  color: chartreuse;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  flex: 1;
+  text-align: right;
+}
+
+.unqu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+}
+/* 
+nav img {
+  width: 150px;
+} */
+/* 
+.nav {
+  display: flex;
+    text-align: right; 
+      width: 100%;
+  margin: 1rem 0rem;
+  border-bottom: 1px solid white; 
+}  */
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.nav ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #36f492;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+  width: 100%;
+}
+
+.view {
+  /* width: 30%; */
+  /* height: 45vh; */
+  position: relative;
+  bottom: 70px;
+}
+#port {
+  /* text-align: center; */
+  color: whitesmoke;
+  font-size: 70%;
+  text-align: center;
+}
+#shop {
+  background-color: darkgoldenrod;
+  transition: initial;
+  color: white;
+}
+#Sale {
+  background-color: peru;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+}
+#repent {
+  /* text-align: right; */
+}
+#tue {
+  font-style: oblique;
+}
+.unqu h1 {
+  font-size: 65px;
+}
+.now h3 {
+  font-style: oblique;
+}
+.now h1 {
+  font-size: 65px;
+}
+.now button {
+  background-color: black;
+  transition: initial;
+  color: white;
+}
+#daily{
+ background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+}
+.boy h3{
+ font-style: oblique;
+}
+.boy h1{
+  font-size: 65px;
+  color: aliceblue;
+}
+
+.boy button{
+   background-color: black;
+  transition: initial;
+  color: white; 
+}
+#winter{
+  background-color:rgb(110, 36, 36);
+  display: flex;
+   justify-content: center; 
+  align-items: center;
+  /* gap: 30rem;  */
+}
